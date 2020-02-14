@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	 border: solid black 1px; 
+	  /* border: solid black 1px;   */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -48,10 +48,13 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+ * {
+	box-sizing: border-box; 
+	
 }
-
+.body1 {
+	margin: 5%;
+}
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -85,8 +88,8 @@ header {
 	justify-content:center;
 	
 }
-  
-  section1 .topnav{
+
+  section1.topnav{
 	width: 25%;
 	display:flex;
 	justify-content: center;
@@ -94,7 +97,7 @@ header {
   
   section1 .logo {
 	width: 25%;
-	background: red;
+
   }
    
   .center {
@@ -105,18 +108,21 @@ header {
 	
   }
   
-  .containerhalf {
-	text-align: center;
+  .container-half {
+	
+	margin: 10%;
+  }
+  .container-half2 {
+	  margin: 10%;
   }
   .middle-img {
+	  width: 100%;
 	  margin: center;
+	  padding: 5%;
   }
 
-  footer {
-	display: flex;
-	flex-direction: column;
-	margin-top: 10%;
-  }
+  
+  
   .copy {
 	text-align: center;
 	margin: 20%;
@@ -125,19 +131,123 @@ header {
 
 
   /* css for service page */
+
+  .bodyS {
+	  margin: 5%;
+  }
   .header {
 	display: flex;
-	letter-spacing: 1px;
-	width: 100%;
+	  flex-direction: row;
 	
   }
-  {
-	letter-spacing: 3px;
-	width: 75%;
+  
+  .servicelinks {
+	  letter-spacing: 5px;
   }
   
+img.services-header-img {
+	width: 100%;
+    
+}
+
+  
   .first {
-	display:flex;
-	justify-content:space-around;
+	margin: 5%;
+
+  }
+  .first h1 {
+	  font-size: 30px;
+  }
+  button {
+	  padding: 2%;
+	  border-radius: 10px;
   }
 
+.second {
+	display:flex;
+  justify-content: space-around;
+  
+}
+.DD {
+	
+	width:50%;
+	padding: 3%;
+	border: black solid 1px;
+	margin: 2%;
+	background-color: lightgray;
+}
+.UX {
+	
+	width: 50%;
+	padding: 3%;
+	border: black solid 1px;
+	margin: 2%;
+	background-color: lightgray
+	
+}	
+.third {
+	display:flex;
+  justify-content:space-around;
+  
+  
+}
+.DM {
+	width:50%;
+	padding: 3%;
+	border: black solid 1px;
+	margin: 2%;
+	background-color: lightgray
+}
+.WD {
+	width:50%;
+	padding: 3%;
+	border: black solid 1px;
+	margin: 2%;
+	background-color: lightgray
+}
+.fourth {
+	display:flex;
+  justify-content:space-around;
+  
+  
+}
+.i0s {
+	width:50%;
+	padding: 3%;
+	border: black solid 1px;
+	margin: 2%;
+	background-color: lightgray
+}
+.AD {
+	width:50%;
+	padding: 3%;
+	border: black solid 1px;
+	margin: 2%;
+	background-color: lightgray
+}
+.facts {
+	width:50%;
+	padding: 3%;
+	
+	margin: 2%;
+}
+.factsT {
+	
+}
+.last {
+	display:flex;
+  justify-content:space-around;
+  
+  
+}
+ 	
+
+
+.ulli{
+	padding: 10%;
+	height: 90%;
+}
+.copyright {
+	text-align: center;
+	padding: 5%;
+}
