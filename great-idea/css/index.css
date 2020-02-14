@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	 border: solid black 1px; 
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -63,4 +63,81 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+header {
+	display: block;
+
+}
+  .links1{
+	  letter-spacing: 2px;
+	  margin: 2%;
+	  width: 65%;
+  }
+  .logo {
+	  width: 20%;
+	  margin-left: 70%;
+	  
+  }
+  div #innovation { 
+	font-size: 70px;
+  }
+   .topnav {
+	display: block;
+	justify-content:center;
+	
+}
+  
+  section1 .topnav{
+	width: 25%;
+	display:flex;
+	justify-content: center;
+  }
+  
+  section1 .logo {
+	width: 25%;
+	background: red;
+  }
+   
+  .center {
+   width:100%;
+	display:flex;
+	justify-content:space-around;
+	align-items: center; 
+	
+  }
+  
+  .containerhalf {
+	text-align: center;
+  }
+  .middle-img {
+	  margin: center;
+  }
+
+  footer {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10%;
+  }
+  .copy {
+	text-align: center;
+	margin: 20%;
+  }
+
+
+
+  /* css for service page */
+  .header {
+	display: flex;
+	letter-spacing: 1px;
+	width: 100%;
+	
+  }
+  {
+	letter-spacing: 3px;
+	width: 75%;
+  }
+  
+  .first {
+	display:flex;
+	justify-content:space-around;
+  }
+
